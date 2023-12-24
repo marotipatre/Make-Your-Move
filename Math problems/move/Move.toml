@@ -1,0 +1,15 @@
+[package]
+name = "math_p"
+version = "1.0.0"
+authors = []
+
+[addresses]
+math_p = "496f94a520a27a50c879cb0d5311cbd69689905c116694a539d2cf1049fa4c10"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
